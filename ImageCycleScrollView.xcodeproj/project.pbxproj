@@ -16,102 +16,8 @@
 		B81636341F0CCB220057725E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B816362D1F0CCB220057725E /* Main.storyboard */; };
 		B81636351F0CCB220057725E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B816362F1F0CCB220057725E /* Info.plist */; };
 		B81636361F0CCB220057725E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81636301F0CCB220057725E /* ViewController.swift */; };
-		B81636601F0CCC5E0057725E /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B81636471F0CCC430057725E /* Kingfisher.framework */; };
+		B81636731F0CFBC40057725E /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B81636721F0CFBC40057725E /* Kingfisher.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B81636461F0CCC430057725E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B81636371F0CCC420057725E /* Kingfisher.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D1ED2D351AD2D09F00CFC3EB;
-			remoteInfo = "Kingfisher-iOS";
-		};
-		B81636481F0CCC430057725E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B81636371F0CCC420057725E /* Kingfisher.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D13F49D61BEDA67C00CE335D;
-			remoteInfo = "Kingfisher-tvOS";
-		};
-		B816364A1F0CCC430057725E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B81636371F0CCC420057725E /* Kingfisher.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4B2944481C3D01B20088C3E7;
-			remoteInfo = "Kingfisher-macOS";
-		};
-		B816364C1F0CCC430057725E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B81636371F0CCC420057725E /* Kingfisher.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D16799EB1C4E74460020FD12;
-			remoteInfo = "Kingfisher-watchOS";
-		};
-		B816364E1F0CCC430057725E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B81636371F0CCC420057725E /* Kingfisher.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D1ED2D0B1AD2CFA600CFC3EB;
-			remoteInfo = "Kingfisher-Demo";
-		};
-		B81636501F0CCC430057725E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B81636371F0CCC420057725E /* Kingfisher.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D13F49C21BEDA53F00CE335D;
-			remoteInfo = "Kingfisher-tvOS-Demo";
-		};
-		B81636521F0CCC430057725E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B81636371F0CCC420057725E /* Kingfisher.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4B2944551C3D03880088C3E7;
-			remoteInfo = "Kingfisher-macOS-Demo";
-		};
-		B81636541F0CCC430057725E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B81636371F0CCC420057725E /* Kingfisher.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D1679A391C4E78B20020FD12;
-			remoteInfo = "Kingfisher-watchOS-Demo";
-		};
-		B81636561F0CCC430057725E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B81636371F0CCC420057725E /* Kingfisher.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D1679A451C4E78B20020FD12;
-			remoteInfo = "Kingfisher-watchOS-Demo Extension";
-		};
-		B81636581F0CCC430057725E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B81636371F0CCC420057725E /* Kingfisher.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D1ED2D3F1AD2D09F00CFC3EB;
-			remoteInfo = KingfisherTests;
-		};
-		B816365A1F0CCC430057725E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B81636371F0CCC420057725E /* Kingfisher.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4B37667F1C478F940001443F;
-			remoteInfo = "KingfisherTests-tvOS";
-		};
-		B816365C1F0CCC430057725E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B81636371F0CCC420057725E /* Kingfisher.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D10EC2311C3D632300A4211C;
-			remoteInfo = "KingfisherTests-macOS";
-		};
-		B816365E1F0CCC550057725E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B81636371F0CCC420057725E /* Kingfisher.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D1ED2D341AD2D09F00CFC3EB;
-			remoteInfo = "Kingfisher-iOS";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B81635FD1F0CCA470057725E /* ImageCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageCycleScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,7 +32,7 @@
 		B816362E1F0CCB220057725E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B816362F1F0CCB220057725E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B81636301F0CCB220057725E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B81636371F0CCC420057725E /* Kingfisher.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Kingfisher.xcodeproj; path = Kingfisher/Kingfisher.xcodeproj; sourceTree = "<group>"; };
+		B81636721F0CFBC40057725E /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = "Carthage/Checkouts/Kingfisher/build/Debug-iphoneos/Kingfisher.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B81636601F0CCC5E0057725E /* Kingfisher.framework in Frameworks */,
+				B81636731F0CFBC40057725E /* Kingfisher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,11 +57,11 @@
 		B81635F31F0CCA470057725E = {
 			isa = PBXGroup;
 			children = (
-				B81636371F0CCC420057725E /* Kingfisher.xcodeproj */,
 				B81636081F0CCA950057725E /* Sources */,
 				B816360F1F0CCA9F0057725E /* Supporting Files */,
 				B81636281F0CCB220057725E /* Demo */,
 				B81635FE1F0CCA470057725E /* Products */,
+				B81636711F0CFBC40057725E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -199,23 +105,12 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
-		B81636381F0CCC420057725E /* Products */ = {
+		B81636711F0CFBC40057725E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B81636471F0CCC430057725E /* Kingfisher.framework */,
-				B81636491F0CCC430057725E /* Kingfisher.framework */,
-				B816364B1F0CCC430057725E /* Kingfisher.framework */,
-				B816364D1F0CCC430057725E /* Kingfisher.framework */,
-				B816364F1F0CCC430057725E /* Kingfisher-Demo.app */,
-				B81636511F0CCC430057725E /* Kingfisher-tvOS-Demo.app */,
-				B81636531F0CCC430057725E /* Kingfisher-macOS-Demo.app */,
-				B81636551F0CCC430057725E /* Kingfisher-watchOS-Demo.app */,
-				B81636571F0CCC430057725E /* Kingfisher-watchOS-Demo Extension.appex */,
-				B81636591F0CCC430057725E /* KingfisherTests.xctest */,
-				B816365B1F0CCC430057725E /* KingfisherTests-tvOS.xctest */,
-				B816365D1F0CCC430057725E /* KingfisherTests-macOS.xctest */,
+				B81636721F0CFBC40057725E /* Kingfisher.framework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +139,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				B816365F1F0CCC550057725E /* PBXTargetDependency */,
 			);
 			name = ImageCycleScrollView;
 			productName = ImageCycleScrollView;
@@ -299,12 +193,6 @@
 			mainGroup = B81635F31F0CCA470057725E;
 			productRefGroup = B81635FE1F0CCA470057725E /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = B81636381F0CCC420057725E /* Products */;
-					ProjectRef = B81636371F0CCC420057725E /* Kingfisher.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				B81635FC1F0CCA470057725E /* ImageCycleScrollView */,
@@ -312,93 +200,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		B81636471F0CCC430057725E /* Kingfisher.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Kingfisher.framework;
-			remoteRef = B81636461F0CCC430057725E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B81636491F0CCC430057725E /* Kingfisher.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Kingfisher.framework;
-			remoteRef = B81636481F0CCC430057725E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B816364B1F0CCC430057725E /* Kingfisher.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Kingfisher.framework;
-			remoteRef = B816364A1F0CCC430057725E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B816364D1F0CCC430057725E /* Kingfisher.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Kingfisher.framework;
-			remoteRef = B816364C1F0CCC430057725E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B816364F1F0CCC430057725E /* Kingfisher-Demo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Kingfisher-Demo.app";
-			remoteRef = B816364E1F0CCC430057725E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B81636511F0CCC430057725E /* Kingfisher-tvOS-Demo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Kingfisher-tvOS-Demo.app";
-			remoteRef = B81636501F0CCC430057725E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B81636531F0CCC430057725E /* Kingfisher-macOS-Demo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Kingfisher-macOS-Demo.app";
-			remoteRef = B81636521F0CCC430057725E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B81636551F0CCC430057725E /* Kingfisher-watchOS-Demo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Kingfisher-watchOS-Demo.app";
-			remoteRef = B81636541F0CCC430057725E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B81636571F0CCC430057725E /* Kingfisher-watchOS-Demo Extension.appex */ = {
-			isa = PBXReferenceProxy;
-			fileType = "wrapper.app-extension";
-			path = "Kingfisher-watchOS-Demo Extension.appex";
-			remoteRef = B81636561F0CCC430057725E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B81636591F0CCC430057725E /* KingfisherTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = KingfisherTests.xctest;
-			remoteRef = B81636581F0CCC430057725E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B816365B1F0CCC430057725E /* KingfisherTests-tvOS.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "KingfisherTests-tvOS.xctest";
-			remoteRef = B816365A1F0CCC430057725E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B816365D1F0CCC430057725E /* KingfisherTests-macOS.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "KingfisherTests-macOS.xctest";
-			remoteRef = B816365C1F0CCC430057725E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B81635FB1F0CCA470057725E /* Resources */ = {
@@ -441,14 +242,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B816365F1F0CCC550057725E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Kingfisher-iOS";
-			targetProxy = B816365E1F0CCC550057725E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B816362B1F0CCB220057725E /* LaunchScreen.storyboard */ = {
@@ -579,6 +372,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Kingfisher/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -598,6 +395,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Kingfisher/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -661,6 +462,7 @@
 				B81636271F0CCAE60057725E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

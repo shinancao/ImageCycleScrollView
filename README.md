@@ -11,7 +11,7 @@ This is a cycle scrollview in swift supporting autoplay and manual play.
 Features
 --------
 - Support both frame and autolayout, and you can add `ImageCycleScrollView` by both code and storyboard.
-- Support image from server, and you can reset the `imageUrls`
+- Support image from server, and you can reset the `imageUrls`.
 
 Installation
 ------------

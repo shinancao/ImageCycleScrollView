@@ -1,0 +1,4 @@
+language: objective-c
+xcode_project: ImageCycleScrollView.xcodeproj # path to your xcodeproj folder
+xcode_scheme: ImageCycleScrollView
+osx_image: xcode8.3

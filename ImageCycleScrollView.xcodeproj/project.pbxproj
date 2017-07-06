@@ -10,14 +10,24 @@
 		B816360C1F0CCA950057725E /* ImageCycleScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = B81636091F0CCA950057725E /* ImageCycleScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B816360D1F0CCA950057725E /* ImageCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816360A1F0CCA950057725E /* ImageCycleScrollView.swift */; };
 		B816360E1F0CCA950057725E /* Timer+ZNBlocksSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816360B1F0CCA950057725E /* Timer+ZNBlocksSupport.swift */; };
-		B81636311F0CCB220057725E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81636291F0CCB220057725E /* AppDelegate.swift */; };
-		B81636321F0CCB220057725E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B816362A1F0CCB220057725E /* Assets.xcassets */; };
-		B81636331F0CCB220057725E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B816362B1F0CCB220057725E /* LaunchScreen.storyboard */; };
-		B81636341F0CCB220057725E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B816362D1F0CCB220057725E /* Main.storyboard */; };
-		B81636351F0CCB220057725E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B816362F1F0CCB220057725E /* Info.plist */; };
-		B81636361F0CCB220057725E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81636301F0CCB220057725E /* ViewController.swift */; };
 		B81636731F0CFBC40057725E /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B81636721F0CFBC40057725E /* Kingfisher.framework */; };
+		B81636761F0E30680057725E /* ImageCycleScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B81635FD1F0CCA470057725E /* ImageCycleScrollView.framework */; };
+		B816367A1F0E30D50057725E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81636291F0CCB220057725E /* AppDelegate.swift */; };
+		B816367B1F0E30D50057725E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81636301F0CCB220057725E /* ViewController.swift */; };
+		B816367C1F0E30FB0057725E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B816362D1F0CCB220057725E /* Main.storyboard */; };
+		B816367D1F0E30FF0057725E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B816362B1F0CCB220057725E /* LaunchScreen.storyboard */; };
+		B816367E1F0E31020057725E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B816362A1F0CCB220057725E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B81636771F0E308E0057725E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B81635F41F0CCA470057725E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B81635FC1F0CCA470057725E;
+			remoteInfo = ImageCycleScrollView;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B81635FD1F0CCA470057725E /* ImageCycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageCycleScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B81636761F0E30680057725E /* ImageCycleScrollView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +167,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B81636781F0E308E0057725E /* PBXTargetDependency */,
 			);
 			name = ImageCycleScrollViewDemo;
 			productName = ImageCycleScrollViewDemo;
@@ -206,10 +218,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B81636351F0CCB220057725E /* Info.plist in Resources */,
-				B81636341F0CCB220057725E /* Main.storyboard in Resources */,
-				B81636321F0CCB220057725E /* Assets.xcassets in Resources */,
-				B81636331F0CCB220057725E /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +225,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B816367C1F0E30FB0057725E /* Main.storyboard in Resources */,
+				B816367E1F0E31020057725E /* Assets.xcassets in Resources */,
+				B816367D1F0E30FF0057725E /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,9 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B81636311F0CCB220057725E /* AppDelegate.swift in Sources */,
 				B816360D1F0CCA950057725E /* ImageCycleScrollView.swift in Sources */,
-				B81636361F0CCB220057725E /* ViewController.swift in Sources */,
 				B816360E1F0CCA950057725E /* Timer+ZNBlocksSupport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,10 +247,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B816367A1F0E30D50057725E /* AppDelegate.swift in Sources */,
+				B816367B1F0E30D50057725E /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B81636781F0E308E0057725E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B81635FC1F0CCA470057725E /* ImageCycleScrollView */;
+			targetProxy = B81636771F0E308E0057725E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B816362B1F0CCB220057725E /* LaunchScreen.storyboard */ = {

@@ -10,7 +10,7 @@ This is a cycle scrollview in swift supporting autoplay and manual play.
 
 Features
 --------
-- Support xib and autolayout.
+- Support both frame and autolayout, and you can add `ImageCycleScrollView` by both code and storyboard.
 - Support image from server, and you can reset the `imageUrls`
 
 Installation
@@ -30,7 +30,8 @@ Installation
 Screenshots
 -----------
 
-![ImageCycleScrollView Screenshot](https://raw.github.com/devxoul/Toaster/master/Screenshots/Toaster.png)
+<img src="https://raw.github.com/shinancao/ImageCycleScrollView/master/Screenshots/screenshot.gif" width="375" height="672">
+
 
 License
 -------

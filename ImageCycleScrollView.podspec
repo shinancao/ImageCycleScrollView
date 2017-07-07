@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ImageCycleScrollView"
-  s.version      = "1.0"
+  s.version      = "2.0"
   s.summary      = "A cycle scrollview in swift supporting autoplay and manual play."
   s.homepage     = "https://github.com/shinancao/ImageCycleScrollView"
   s.license      = { :type => "MIT", :file => "LICENSE" }

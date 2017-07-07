@@ -3,8 +3,6 @@ osx_image: xcode8.3
 xcode_workspace: ImageCycleScrollView
 xcode_scheme: ImageCycleScrollView
 xcode_sdk: iphonesimulator10.3
-env:
-  - SDK="iphoneos10.0"
 before_install:
   - xcodebuild -showsdks
   - brew update
@@ -14,6 +12,4 @@ before_script:
 before_deploy:
   - carthage build --no-skip-current
   - carthage archive $FRAMEWORK_NAME
-script:
-  - xcodebuild clean build -sdk $SDK -configuration Debug CODE_SIGN_IDENTITY=\"\" CODE_SIGNING_REQUIRED=NO
   

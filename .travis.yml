@@ -12,4 +12,6 @@ before_script:
 before_deploy:
   - carthage build --no-skip-current
   - carthage archive $FRAMEWORK_NAME
+script:
+    - xcodebuild clean build -sdk iphonesimulator10.3 -workspace ImageCycleScrollView.xcworkspace -scheme ImageCycleScrollView CODE_SIGNING_REQUIRED=NO
   

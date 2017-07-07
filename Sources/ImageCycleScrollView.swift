@@ -69,7 +69,7 @@ public class ImageCycleScrollView: UIScrollView, UIScrollViewDelegate {
                 }
             }
             
-            setupPageCtrlPos()
+            layoutIfNeeded() //强制调用一次layoutSubviews来调整位置
         }
     }
     
@@ -124,6 +124,8 @@ public class ImageCycleScrollView: UIScrollView, UIScrollViewDelegate {
         centerImageView.frame = CGRect(x: screenWidth, y: 0, width: screenWidth, height: screenHeight)
         rightImageView.frame = CGRect(x: screenWidth * 2, y: 0, width: screenWidth, height: screenHeight)
         super.layoutSubviews()
+        
+        setupPageCtrlPos()
     }
     
     override public func didMoveToSuperview() {
@@ -222,7 +224,7 @@ fileprivate extension ImageCycleScrollView {
     }
 }
 
-extension ImageCycleScrollView {
+fileprivate extension ImageCycleScrollView {
     var screenWidth: CGFloat {
         return bounds.size.width
     }
